@@ -1,14 +1,50 @@
-.nav-item {
-    padding: 0 10rem;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 
+.nav-item {
+    padding: 0 10rem;
+    transition: all 1.4s ease-in;
+}
+
+.nav-item a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+
+.nav-item .demo {
+    background: #253a7c;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 0 30px;
+}
 
 
+ul .dropdown-menu {
+    background: #253a7c;
+}
 
+.dropdown-menu a {
+    color: #FFF;
+}
 
-
+.dropdown-menu a:hover {
+    background: #d1d3d4;
+    color: black;
+}
 
 
 
